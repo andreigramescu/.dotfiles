@@ -3,3 +3,5 @@
 	email = 36415459+andreigramescu@users.noreply.github.com
 [core]
 	editor = vim
+[init]
+	defaultBranch = main
