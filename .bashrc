@@ -1,5 +1,7 @@
 [ -f $HOME/.bash_popos_defaults ] && source $HOME/.bash_popos_defaults
 
+bind -s 'set completion-ignore-case on'
+
 find_file_global() {
     find / -name $1 -type f -print 2>/dev/null
 }
@@ -26,4 +28,3 @@ __prompt_command() {
 
     PS1+=" $ ${COLOR_WHITE}"
 }
-
